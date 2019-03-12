@@ -1,0 +1,54 @@
+body{
+  background-color: #1f262e;
+}
+
+.App {
+  width: 40%;
+  margin: 0 auto;
+}
+
+form{
+  margin-top: 1rem;
+}
+input{
+  box-sizing: border-box;
+  border: 1px solid gray;
+}
+
+input[name="url"]{
+  display: block;
+  width: 100%;
+  height: 2rem;
+  border-bottom: none;
+}
+
+.Title{
+  width: 100%;
+  display: flex;
+}
+
+input[name="title"]{
+  display: inline-block;
+  width: 80%;
+  height: 2rem;
+  border-right: none;
+}
+
+button{
+  display: inline-block;
+  width: 21%;
+  border: 1px solid gray;
+}
+
+.Item{
+  background: white;
+  width: 100%;
+  text-align: center;
+  margin: 1rem 0;
+  padding: 1rem 0;
+}
+
+.Item img{
+  width: 90%;
+}
+
